@@ -9,4 +9,4 @@ k6_load_test:
     - name: Run local k6 test
       uses: grafana/k6-action@v0.2.0
       with:
-        filename: test.js
+        filename: "../../test.js"
